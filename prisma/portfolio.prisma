@@ -1,0 +1,20 @@
+model Project {
+  id          Int    @id @default(autoincrement())
+  title       String
+  description String
+  img         String
+}
+
+model Testimonial {
+  id      Int    @id @default(autoincrement())
+  name    String
+  content String
+  img     String
+}
+
+model Blog {
+  id      Int    @id @default(autoincrement())
+  title   String
+  content String
+  img     String
+}
